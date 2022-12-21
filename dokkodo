@@ -3,6 +3,18 @@
 # Small program that prints out 1 of 21 principles found in Miyamoto Musashi's
 # 'The Path of Aloneness' (Dokkodo). Ref. https://en.wikipedia.org/wiki/Dokkodo
 
+echo '           -=-
+      -=-=-   -=-=-
+cc-=-= \/-=-=-=-=-
+   -=\ |/    |/
+    =\V    \/
+       \  /
+      , ||
+    ,(),|| ~ 宮本 武蔵 ~
+   ((..))
+  (\)  (/)
+   ~~\"~~'
+
 r=$(shuf -i 1-21 -n 1)
 
 case $r in
